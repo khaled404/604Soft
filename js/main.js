@@ -1,6 +1,5 @@
 $(function () {
   AOS.init();
-  $("header .content").addClass("active");
   $(".nav-trigger , .menu   , .menu a").on("click", function () {
     $(".nav-trigger").toggleClass("active");
     $(".menu").toggleClass("active");
@@ -22,6 +21,7 @@ $(function () {
     $("html").css("overflow-y", "auto");
     $(".loder").fadeOut(400, function () {
       $(this).remove();
+      $("header .content").addClass("active");
     });
   });
 });
