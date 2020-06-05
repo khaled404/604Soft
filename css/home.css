@@ -481,8 +481,8 @@ header {
         margin-bottom: 25px;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        -webkit-transition-delay: 1s;
-                transition-delay: 1s;
+        -webkit-transition-delay: 0.5s;
+                transition-delay: 0.5s;
         opacity: 0;
         -webkit-transform: translateY(400%);
                 transform: translateY(400%); }
@@ -498,8 +498,8 @@ header {
         font-size: 20px;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        -webkit-transition-delay: 2s;
-                transition-delay: 2s;
+        -webkit-transition-delay: 1s;
+                transition-delay: 1s;
         opacity: 0;
         -webkit-transform: translateY(400%);
                 transform: translateY(400%);
@@ -516,8 +516,8 @@ header {
                 align-items: center;
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        -webkit-transition-delay: 2.5s;
-                transition-delay: 2.5s;
+        -webkit-transition-delay: 1.5s;
+                transition-delay: 1.5s;
         opacity: 0;
         -webkit-transform: translateY(400%);
                 transform: translateY(400%); }
@@ -545,8 +545,8 @@ header {
       header .header-container .content .main-button {
         -webkit-transition: 0.5s;
         transition: 0.5s;
-        -webkit-transition-delay: 3s;
-                transition-delay: 3s;
+        -webkit-transition-delay: 2s;
+                transition-delay: 2s;
         opacity: 0;
         -webkit-transform: translateY(400%);
                 transform: translateY(400%); }
